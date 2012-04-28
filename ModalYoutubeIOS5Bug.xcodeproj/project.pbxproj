@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48532521154BADD100C905EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48532520154BADD100C905EB /* UIKit.framework */; };
+		48532523154BADD100C905EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48532522154BADD100C905EB /* Foundation.framework */; };
+		48532525154BADD100C905EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48532524154BADD100C905EB /* CoreGraphics.framework */; };
+		4853252B154BADD100C905EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48532529154BADD100C905EB /* InfoPlist.strings */; };
+		4853252D154BADD100C905EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853252C154BADD100C905EB /* main.m */; };
+		48532531154BADD100C905EB /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48532530154BADD100C905EB /* MYAppDelegate.m */; };
+		48532534154BADD100C905EB /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48532533154BADD100C905EB /* MYViewController.m */; };
+		48532537154BADD100C905EB /* MYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48532535154BADD100C905EB /* MYViewController.xib */; };
+		48532540154BAE6D00C905EB /* MYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853253E154BAE6D00C905EB /* MYWebViewController.m */; };
+		48532541154BAE6D00C905EB /* MYWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4853253F154BAE6D00C905EB /* MYWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4853251C154BADD100C905EB /* ModalYoutubeIOS5Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalYoutubeIOS5Bug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48532520154BADD100C905EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48532522154BADD100C905EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48532524154BADD100C905EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48532528154BADD100C905EB /* ModalYoutubeIOS5Bug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalYoutubeIOS5Bug-Info.plist"; sourceTree = "<group>"; };
+		4853252A154BADD100C905EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4853252C154BADD100C905EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4853252E154BADD100C905EB /* ModalYoutubeIOS5Bug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalYoutubeIOS5Bug-Prefix.pch"; sourceTree = "<group>"; };
+		4853252F154BADD100C905EB /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		48532530154BADD100C905EB /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		48532532154BADD100C905EB /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		48532533154BADD100C905EB /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		48532536154BADD100C905EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MYViewController.xib; sourceTree = "<group>"; };
+		4853253D154BAE6D00C905EB /* MYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWebViewController.h; sourceTree = "<group>"; };
+		4853253E154BAE6D00C905EB /* MYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWebViewController.m; sourceTree = "<group>"; };
+		4853253F154BAE6D00C905EB /* MYWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYWebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48532519154BADD100C905EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48532521154BADD100C905EB /* UIKit.framework in Frameworks */,
+				48532523154BADD100C905EB /* Foundation.framework in Frameworks */,
+				48532525154BADD100C905EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48532511154BADD000C905EB = {
+			isa = PBXGroup;
+			children = (
+				48532526154BADD100C905EB /* ModalYoutubeIOS5Bug */,
+				4853251F154BADD100C905EB /* Frameworks */,
+				4853251D154BADD100C905EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4853251D154BADD100C905EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4853251C154BADD100C905EB /* ModalYoutubeIOS5Bug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4853251F154BADD100C905EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48532520154BADD100C905EB /* UIKit.framework */,
+				48532522154BADD100C905EB /* Foundation.framework */,
+				48532524154BADD100C905EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48532526154BADD100C905EB /* ModalYoutubeIOS5Bug */ = {
+			isa = PBXGroup;
+			children = (
+				4853252F154BADD100C905EB /* MYAppDelegate.h */,
+				48532530154BADD100C905EB /* MYAppDelegate.m */,
+				48532532154BADD100C905EB /* MYViewController.h */,
+				48532533154BADD100C905EB /* MYViewController.m */,
+				48532535154BADD100C905EB /* MYViewController.xib */,
+				4853253D154BAE6D00C905EB /* MYWebViewController.h */,
+				4853253E154BAE6D00C905EB /* MYWebViewController.m */,
+				4853253F154BAE6D00C905EB /* MYWebViewController.xib */,
+				48532527154BADD100C905EB /* Supporting Files */,
+			);
+			path = ModalYoutubeIOS5Bug;
+			sourceTree = "<group>";
+		};
+		48532527154BADD100C905EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48532528154BADD100C905EB /* ModalYoutubeIOS5Bug-Info.plist */,
+				48532529154BADD100C905EB /* InfoPlist.strings */,
+				4853252C154BADD100C905EB /* main.m */,
+				4853252E154BADD100C905EB /* ModalYoutubeIOS5Bug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4853251B154BADD100C905EB /* ModalYoutubeIOS5Bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4853253A154BADD100C905EB /* Build configuration list for PBXNativeTarget "ModalYoutubeIOS5Bug" */;
+			buildPhases = (
+				48532518154BADD100C905EB /* Sources */,
+				48532519154BADD100C905EB /* Frameworks */,
+				4853251A154BADD100C905EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalYoutubeIOS5Bug;
+			productName = ModalYoutubeIOS5Bug;
+			productReference = 4853251C154BADD100C905EB /* ModalYoutubeIOS5Bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48532513154BADD000C905EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MY;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Yasuhiro Inami";
+			};
+			buildConfigurationList = 48532516154BADD000C905EB /* Build configuration list for PBXProject "ModalYoutubeIOS5Bug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48532511154BADD000C905EB;
+			productRefGroup = 4853251D154BADD100C905EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4853251B154BADD100C905EB /* ModalYoutubeIOS5Bug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4853251A154BADD100C905EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4853252B154BADD100C905EB /* InfoPlist.strings in Resources */,
+				48532537154BADD100C905EB /* MYViewController.xib in Resources */,
+				48532541154BAE6D00C905EB /* MYWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48532518154BADD100C905EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4853252D154BADD100C905EB /* main.m in Sources */,
+				48532531154BADD100C905EB /* MYAppDelegate.m in Sources */,
+				48532534154BADD100C905EB /* MYViewController.m in Sources */,
+				48532540154BAE6D00C905EB /* MYWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48532529154BADD100C905EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4853252A154BADD100C905EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48532535154BADD100C905EB /* MYViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48532536154BADD100C905EB /* en */,
+			);
+			name = MYViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48532538154BADD100C905EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48532539154BADD100C905EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4853253B154BADD100C905EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalYoutubeIOS5Bug/ModalYoutubeIOS5Bug-Prefix.pch";
+				INFOPLIST_FILE = "ModalYoutubeIOS5Bug/ModalYoutubeIOS5Bug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4853253C154BADD100C905EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalYoutubeIOS5Bug/ModalYoutubeIOS5Bug-Prefix.pch";
+				INFOPLIST_FILE = "ModalYoutubeIOS5Bug/ModalYoutubeIOS5Bug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48532516154BADD000C905EB /* Build configuration list for PBXProject "ModalYoutubeIOS5Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48532538154BADD100C905EB /* Debug */,
+				48532539154BADD100C905EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4853253A154BADD100C905EB /* Build configuration list for PBXNativeTarget "ModalYoutubeIOS5Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4853253B154BADD100C905EB /* Debug */,
+				4853253C154BADD100C905EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48532513154BADD000C905EB /* Project object */;
+}
